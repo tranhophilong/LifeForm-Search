@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		8671BE072BA0164900728601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE062BA0164900728601 /* AppDelegate.swift */; };
 		8671BE092BA0164900728601 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE082BA0164900728601 /* SceneDelegate.swift */; };
-		8671BE0B2BA0164900728601 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE0A2BA0164900728601 /* ViewController.swift */; };
 		8671BE0E2BA0164900728601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8671BE0C2BA0164900728601 /* Main.storyboard */; };
 		8671BE102BA0164B00728601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8671BE0F2BA0164B00728601 /* Assets.xcassets */; };
 		8671BE132BA0164B00728601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8671BE112BA0164B00728601 /* LaunchScreen.storyboard */; };
+		8671BE1B2BA0209100728601 /* LifeFormListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE1A2BA0209100728601 /* LifeFormListTableViewController.swift */; };
+		8671BE1D2BA020ED00728601 /* LifeFormDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE1C2BA020ED00728601 /* LifeFormDetailViewController.swift */; };
+		8671BE1F2BA04A9000728601 /* LifeForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE1E2BA04A9000728601 /* LifeForm.swift */; };
+		8671BE212BA04AA800728601 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE202BA04AA800728601 /* ResponseModel.swift */; };
+		8671BE252BA04F2200728601 /* TaxonConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE242BA04F2200728601 /* TaxonConcept.swift */; };
+		8671BE272BA04F2C00728601 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE262BA04F2C00728601 /* Agent.swift */; };
+		8671BE292BA04F3500728601 /* DetailLifeForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE282BA04F3500728601 /* DetailLifeForm.swift */; };
+		8671BE2D2BA051D800728601 /* LifeFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE2C2BA051D800728601 /* LifeFormController.swift */; };
+		8671BE2F2BA051FD00728601 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE2E2BA051FD00728601 /* APIRequest.swift */; };
+		8671BE342BA1735900728601 /* PrettyPrintData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE332BA1735900728601 /* PrettyPrintData.swift */; };
+		8671BE362BA17C1300728601 /* DataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE352BA17C1300728601 /* DataObject.swift */; };
+		8671BE382BA1A11100728601 /* Ancestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8671BE372BA1A11100728601 /* Ancestor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8671BE032BA0164900728601 /* Life-FormSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life-FormSearch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8671BE062BA0164900728601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8671BE082BA0164900728601 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8671BE0A2BA0164900728601 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8671BE0D2BA0164900728601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8671BE0F2BA0164B00728601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8671BE122BA0164B00728601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8671BE142BA0164B00728601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8671BE1A2BA0209100728601 /* LifeFormListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeFormListTableViewController.swift; sourceTree = "<group>"; };
+		8671BE1C2BA020ED00728601 /* LifeFormDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeFormDetailViewController.swift; sourceTree = "<group>"; };
+		8671BE1E2BA04A9000728601 /* LifeForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeForm.swift; sourceTree = "<group>"; };
+		8671BE202BA04AA800728601 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		8671BE242BA04F2200728601 /* TaxonConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxonConcept.swift; sourceTree = "<group>"; };
+		8671BE262BA04F2C00728601 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		8671BE282BA04F3500728601 /* DetailLifeForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLifeForm.swift; sourceTree = "<group>"; };
+		8671BE2C2BA051D800728601 /* LifeFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeFormController.swift; sourceTree = "<group>"; };
+		8671BE2E2BA051FD00728601 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		8671BE332BA1735900728601 /* PrettyPrintData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyPrintData.swift; sourceTree = "<group>"; };
+		8671BE352BA17C1300728601 /* DataObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataObject.swift; sourceTree = "<group>"; };
+		8671BE372BA1A11100728601 /* Ancestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ancestor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +80,48 @@
 			children = (
 				8671BE062BA0164900728601 /* AppDelegate.swift */,
 				8671BE082BA0164900728601 /* SceneDelegate.swift */,
-				8671BE0A2BA0164900728601 /* ViewController.swift */,
 				8671BE0C2BA0164900728601 /* Main.storyboard */,
 				8671BE0F2BA0164B00728601 /* Assets.xcassets */,
 				8671BE112BA0164B00728601 /* LaunchScreen.storyboard */,
 				8671BE142BA0164B00728601 /* Info.plist */,
+				8671BE322BA052D600728601 /* Protocol */,
+				8671BE312BA052B700728601 /* Controller */,
+				8671BE302BA0529C00728601 /* Model */,
+				8671BE332BA1735900728601 /* PrettyPrintData.swift */,
 			);
 			path = "Life-FormSearch";
+			sourceTree = "<group>";
+		};
+		8671BE302BA0529C00728601 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8671BE202BA04AA800728601 /* ResponseModel.swift */,
+				8671BE1E2BA04A9000728601 /* LifeForm.swift */,
+				8671BE242BA04F2200728601 /* TaxonConcept.swift */,
+				8671BE262BA04F2C00728601 /* Agent.swift */,
+				8671BE282BA04F3500728601 /* DetailLifeForm.swift */,
+				8671BE352BA17C1300728601 /* DataObject.swift */,
+				8671BE372BA1A11100728601 /* Ancestor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8671BE312BA052B700728601 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8671BE2C2BA051D800728601 /* LifeFormController.swift */,
+				8671BE1A2BA0209100728601 /* LifeFormListTableViewController.swift */,
+				8671BE1C2BA020ED00728601 /* LifeFormDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8671BE322BA052D600728601 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8671BE2E2BA051FD00728601 /* APIRequest.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +195,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8671BE0B2BA0164900728601 /* ViewController.swift in Sources */,
 				8671BE072BA0164900728601 /* AppDelegate.swift in Sources */,
 				8671BE092BA0164900728601 /* SceneDelegate.swift in Sources */,
+				8671BE272BA04F2C00728601 /* Agent.swift in Sources */,
+				8671BE342BA1735900728601 /* PrettyPrintData.swift in Sources */,
+				8671BE292BA04F3500728601 /* DetailLifeForm.swift in Sources */,
+				8671BE252BA04F2200728601 /* TaxonConcept.swift in Sources */,
+				8671BE382BA1A11100728601 /* Ancestor.swift in Sources */,
+				8671BE1F2BA04A9000728601 /* LifeForm.swift in Sources */,
+				8671BE1B2BA0209100728601 /* LifeFormListTableViewController.swift in Sources */,
+				8671BE2F2BA051FD00728601 /* APIRequest.swift in Sources */,
+				8671BE212BA04AA800728601 /* ResponseModel.swift in Sources */,
+				8671BE362BA17C1300728601 /* DataObject.swift in Sources */,
+				8671BE1D2BA020ED00728601 /* LifeFormDetailViewController.swift in Sources */,
+				8671BE2D2BA051D800728601 /* LifeFormController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
